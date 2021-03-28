@@ -1,0 +1,42 @@
+namespace = mia
+
+country_event = {
+	id = mia.404
+	is_triggered_only = yes
+	hide_window = yes
+
+	immediate = {
+		if = {
+			limit = {
+				# Only save the leader once, then the pre_ruler_leader_class should be set as governor
+				NOT = {
+					FROM = {
+						OR = {
+							pre_ruler_leader_class = governor
+							pre_ruler_leader_class = scientist
+							pre_ruler_leader_class = admiral
+							pre_ruler_leader_class = general
+						}
+					}
+				}
+				NOT = {
+					ROOT = {
+						has_country_flag = rescued_first_ruler
+					}
+				}
+			}
+			remove_ruler_traits = yes
+			clone_leader = {
+				target = FROM
+				class = governor
+				effect = {
+					add_governor_traits = yes
+					restore_ruler_traits = yes
+				}
+			}
+			ROOT = {
+				set_country_flag = rescued_first_ruler
+			}
+		}
+	}
+}

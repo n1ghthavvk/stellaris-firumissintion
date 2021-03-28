@@ -1,0 +1,8 @@
+# Executed when a ruler has been removed
+# From = Previous Ruler
+# This = Country
+on_ruler_removed = {
+	events = {
+		mia.404
+	}
+}

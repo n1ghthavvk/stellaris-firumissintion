@@ -1,26 +1,17 @@
-# Example Change Notes
-For the steam workshop change notes I recommended to use major mod version increases when removing features or adding a plethora of them, minor ones when updating to a new game version or doing small tweaks and patch version increases when changing things unrelated to the users experience.
+Version 1.3.1
+* Migrated to GitHub
 
-Version 2.2.0
-* Update to game version 2.8.0
+Version 1.3.0
+* Update to game version 2.8.*
 
-Version 2.1.0
+Version 1.2.0
 * Update to game version 2.7.2
-* Fixed an issue that'd break something ingame.
-* Updated "Some Special" Feature, quickly described.
-
-Version 2.0.0
-* Added "Some Special" Feature, quickly described.
-* Added "Some Other Special" Feature, quickly described.
-* Removed "Another Initial" Feature, as it lead to too one to many issues.
+* The ruler will now become a governor when they lose an election. Any non-vanilla ruler traits will be kept and apply to the governor (vanilla "feature"). The vanilla traits have been given a workaround as intended by the game.
+* Improved thumbnail
 
 Version 1.1.0
-* Update to game version 2.7.0
-
-Version 1.0.1
-* Updated thumbnail
+* Update to game version 2.6.1
+* Tweaked the event that "saves" the initial leader to only fire once (now the leader won't get duplicated again and again).
 
 Version 1.0.0
-* Developed for game version 2.6.3
-* Added "Initial" Feature, quickly described.
-* Added "Another Initial" Feature, quickly described.
+* Added an event that clones the initial leader after he or she has their first election loss and converts them into a governor.
