@@ -13,6 +13,17 @@ remove_ruler_traits = {
 	if = {
 		limit = {
 			FROM = {
+				has_trait = leader_trait_reformer
+			}
+		}
+		FROM = {
+			remove_trait = leader_trait_reformer
+		}
+		set_country_flag = had_trait_reformer
+	}
+	if = {
+		limit = {
+			FROM = {
 				has_trait = trait_ruler_architectural_sense
 			}
 		}
@@ -793,6 +804,17 @@ restore_ruler_traits = {
 	}
 
 	# Restore saved old ones
+	if = {
+		limit = {
+			FROM = {
+				has_country_flag = had_trait_reformer
+			}
+		}
+		add_ruler_trait = leader_trait_reformer
+		FROM = {
+			remove_country_flag = had_trait_reformer
+		}
+	}
 	if = {
 		limit = {
 			FROM = {
