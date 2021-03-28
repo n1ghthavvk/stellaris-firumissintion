@@ -1,3 +1,6 @@
+Version 1.4.0
+* Fixed a bug regarding the "trait_leader_reformer" ruler trait that was incorrectly kept after changing leader class
+
 Version 1.3.1
 * Migrated to GitHub
 
