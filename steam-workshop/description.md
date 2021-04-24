@@ -8,6 +8,17 @@ Check the Leader screen, the election details and your factions screen to confir
 [i]Should be save game compatible, for as long as the initial ruler is still in office. 
 Ironman compatibility status questionable due to changes for a vanilla event chain (please leave a comment if you notice otherwise).[/i]
 
+[h1]Future Development[/h1]
+[img]https://i.imgur.com/66jPHmn.png[/img]
+This fix has been included in the vanilla game as of the Nemesis update (game version 3.0.1). 
+The mod is therefore no longer necessary (and won't be maintained by me from now on).
+It is kept around for players of old versions. 
+You should remove the mod from your up-to-date playsets with the launcher, and if you only plan to play the newest game versions you should unsubscribe. 
+If it is kept active in new game versions, it could duplicate your initial ruler (if it would have vanished in an older game version).
+
+Please do leave a like, if you enjoyed playing with the mod until now. Thank you! 
+And go ahead, check out my other creations, they're linked down below.
+
 [h1]Details[/h1]
 This mod uses [i]on_actions[/i] and is thus 100% compatible to every other mod out there. 
 It works by intercepting the game from getting rid of your original ruler by listening to the following action:
